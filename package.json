@@ -1,0 +1,19 @@
+{
+  "name": "xfers-experiment-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aizat Faiz <aizat.faiz@gmail.com>",
+  "license": "PRIVATE",
+  "private": true,
+  "dependencies": {
+    "lerna": "^3.20.2"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build": "lerna run build --stream"
+  }
+}

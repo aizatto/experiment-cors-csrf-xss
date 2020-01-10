@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ]
+}
